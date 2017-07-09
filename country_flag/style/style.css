@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  /*background: url(../img/bg.jpg);*/
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+#india{
+  display: inline;
+  margin-right: 10px;
+}
+
+#sweden{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#neth{
+  display: inline;
+  margin-left: 10px;
+}
+
+
+
+img{
+  height: 200px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container{
+  max-width: 1100px;
+  margin: 80px auto;
+}
+
+#flags{
+  width: 98%;
+  margin: 0 auto;
+}
+#names{
+  margin-top: 20px;
+}
+h2{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+
+#in_name{
+  width: 310px;
+  text-align: center;
+}
+
+#sd_name{
+  width: 330px;
+  text-align: center;
+}
+
+#nt_name{
+  width: 270px;
+  text-align: center;
+}
+
+@keyframes shadow {
+  from{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+  to{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);}
+}
+
+img:hover{
+  animation-name: shadow;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
