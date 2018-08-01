@@ -1,1 +1,2 @@
-# first_project
+# First Project
+Boring ole first project 😛.
